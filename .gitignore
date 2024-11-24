@@ -1,7 +1,8 @@
 # Compiler files
 cache/
 out/
-
+# Installs
+lib/
 # Ignores development broadcast logs
 !/broadcast
 /broadcast/*/31337/
@@ -12,3 +13,5 @@ docs/
 
 # Dotenv file
 .env
+
+.DS_Store
