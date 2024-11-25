@@ -14,7 +14,7 @@ The contract is deployed on **Sepolia** at the following address:
 
 ## 🎲 Lottery Details
 
-- **Frequency**: The lottery runs every **15 minutes**.
+- **Frequency**: The lottery runs every **15 minutes**. UPD: now it's not active, will be updated soon.
 - **Mechanism**:
   - The system checks if `checkUpkeep` returns `true` in the `performUpkeep` function.
   - If `true`, the function executes and a **random winner** is selected.
